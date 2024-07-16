@@ -1,0 +1,116 @@
+@media  screen and (max-width : 1000px) {
+
+    .nav-toggle{
+        display : block;
+        /* margin-right : 20px; */
+        margin-right : 20px;
+        margin-top : 15px;
+
+    }   
+
+    h2{
+        font-size : 3em;
+        letter-spacing: 0.8px;
+    }
+    
+    h3{
+        font-size: 2em;
+    }
+
+    .outer-box{
+        max-width: 780px;
+        margin : auto;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .section-2-img img{
+        height : 300px;
+    }
+
+    .company-images{
+        gap : 10px;
+    }
+
+    .images{
+        height : 35px;
+    }
+
+    .section-4{
+        height : 800px;
+    }
+
+    .sec5-logo{
+        height : 400px;
+        align-self: center;
+    }
+
+    .section5-text{
+        margin-bottom : 30px;
+        text-align: center;
+    }
+
+    .sec6-right img{
+        height :400px;
+    }
+
+    .sec6-left{
+        font-size : 0.9em;
+        margin-bottom : 20px;
+    }
+   
+
+}
+
+
+@media  screen and (max-width : 750px) {
+
+ 
+
+    .outer-box{
+        max-width: 600px;
+        
+        margin : auto;
+    }
+
+    .section-2{
+        flex-direction: column-reverse;
+        gap : 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-2-img img{
+        width : 80vw;
+        height: 30vh;
+    }
+   
+    .bb{
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-2-text{
+        text-align: center;
+    }
+
+    .logos{
+        justify-content: space-evenly;
+    }
+    .small-logos{
+        max-width: 200px;
+    }
+
+    .sec5-logo{
+        height : 300px;
+        width: 250px;
+        align-self: center;
+    }
+
+    .sec6-right img{
+        height :250px;
+    }
+
+}

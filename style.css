@@ -21,11 +21,16 @@ h3{
     
 }
 
+.main-div{
+    overflow: hidden;
+}
+
 .top-most{
     background-color: rgb(255, 110, 131);
     color : white;
     font-weight: 300;
     font-size: 1.4rem ;
+    width : 100vw;
     text-align: center;
     padding:5px;
 }
@@ -42,7 +47,12 @@ h3{
 }
 
 .nav-bar img{
-    height : 50px;
+    height : 35px;
+    margin-top : 6.5px;
+}
+
+.nav-toggle{
+   display: none;
 }
 
 .list{
